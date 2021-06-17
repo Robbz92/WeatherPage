@@ -13,13 +13,17 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-image: url("assets/weather.jpg");
+  background-image: url("assets/BG.jpg");
   height: 100%;
   min-height: 100vh;
   background-size: cover;
   background-position-y: -100px;
   background-repeat: no-repeat;
   background-attachment: fixed, scroll;
+}
+
+#headline{
+  color: white;
 }
 
 #nav {
@@ -33,7 +37,8 @@
   font-weight: bold;
   color: #ffffff;
 }
-#headline{
-  color: white;
+
+body{
+  margin: 0;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="input">
-      <input type="text">
+      <input type="text" placeholder="Type city name..">
       <button @click="search">Search</button>
       <div class="CityCard" v-if="showCity">
          <CityCard :city="city"/>
