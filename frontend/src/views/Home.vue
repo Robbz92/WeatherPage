@@ -1,5 +1,11 @@
 <template>
-  <div>test</div>
+  <div class="container">
+    <div class="input">
+      <input type="text">
+      <button>Search</button>
+    </div>
+
+  </div>
 </template>
 
 <script>
